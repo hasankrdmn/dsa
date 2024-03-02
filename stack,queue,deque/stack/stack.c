@@ -16,27 +16,6 @@ typedef struct {
     array *stack;
 }stack;
 
-stack *createStack();
-array *createArray();
-void myStack_push(stack *obj, int data);
-int myStack_pop(stack *obj);
-void myStack_show(stack *obj);
-void myStack_free(stack *obj);
-
-// int main()
-// {
-//     stack *mystack = createStack();
-//     myStack_push(mystack, 1);
-//     myStack_push(mystack, 2);
-//     myStack_pop(mystack);
-//     myStack_push(mystack, 3);
-//     myStack_push(mystack, 4);
-//     myStack_pop(mystack);
-//     myStack_push(mystack, 5);
-//     myStack_show(mystack);
-//     myStack_free(mystack);
-// }
-
 stack *createStack()
 {
     stack *st = malloc(sizeof(stack));

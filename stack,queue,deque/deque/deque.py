@@ -22,13 +22,3 @@ class Deque:
 
     def show(self) -> None:
         print(self.deque)
-
-# myDeque = Deque()
-# myDeque.addRight(3)
-# myDeque.addLeft(2)
-# myDeque.rmvRight()
-# myDeque.addLeft(3)
-# myDeque.addRight(4)
-# myDeque.rmvLeft()
-# myDeque.addLeft(1)
-# myDeque.show()

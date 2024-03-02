@@ -24,12 +24,3 @@ class MyStack:
 
     def empty(self) -> bool:
         return self.stack.empty()
-
-
-# stack = MyStack()
-# stack.push(1)
-# stack.push(4)
-# stack.push(5)
-# print(stack.pop())
-# stack.push(3)
-# print(stack.top())

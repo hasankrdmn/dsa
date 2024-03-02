@@ -16,27 +16,6 @@ typedef struct {
     array *queue;
 }queue;
 
-queue *createQueue();
-array *createArray();
-void myQueue_enqueue(queue *obj, int data);
-int myQueue_dequeue(queue *obj);
-void myQueue_show(queue *obj);
-void myQueue_free(queue *obj);
-
-// int main()
-// {
-//     queue *myqueue = createQueue();
-//     myQueue_enqueue(myqueue, 1);
-//     myQueue_enqueue(myqueue, 2);
-//     myQueue_dequeue(myqueue);
-//     myQueue_enqueue(myqueue, 3);
-//     myQueue_enqueue(myqueue, 4);
-//     myQueue_dequeue(myqueue);
-//     myQueue_enqueue(myqueue, 5);
-//     myQueue_show(myqueue);
-//     myQueue_free(myqueue);
-// }
-
 queue *createQueue()
 {
     queue *qu = malloc(sizeof(queue));

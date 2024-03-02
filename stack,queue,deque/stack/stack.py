@@ -16,13 +16,3 @@ class Stack:
 
     def show(self) -> None:
         print(self.stack)
-
-# myStack = Stack()
-# myStack.push(1)
-# myStack.push(2)
-# myStack.pop()
-# myStack.push(3)
-# myStack.push(4)
-# myStack.pop()
-# myStack.push(5)
-# myStack.show()

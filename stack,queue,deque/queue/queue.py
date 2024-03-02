@@ -16,13 +16,3 @@ class Queue:
     
     def show(self) -> None:
         print(self.queue)
-
-# myQueue = Queue()
-# myQueue.enqueue(1)
-# myQueue.enqueue(2)
-# myQueue.enqueue(3)
-# myQueue.dequeue()
-# myQueue.enqueue(4)
-# myQueue.dequeue()
-# myQueue.enqueue(5)
-# myQueue.show()
