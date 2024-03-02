@@ -8,8 +8,13 @@ class Stack:
     def pop(self) -> int:
         return self.stack.pop()
 
+    def size(self) -> int:
+        return len(self.stack)
+    
+    def empty(self) -> bool:
+        return self.size == 0
+
     def show(self) -> None:
-        if self.stack == []: return
         print(self.stack)
 
 # myStack = Stack()
