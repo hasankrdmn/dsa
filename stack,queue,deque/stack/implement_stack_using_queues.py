@@ -30,6 +30,6 @@ class MyStack:
 # stack.push(1)
 # stack.push(4)
 # stack.push(5)
-# print(stack.pop()) #5
+# print(stack.pop())
 # stack.push(3)
-# print(stack.top()) #3
+# print(stack.top())
