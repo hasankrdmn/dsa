@@ -12,7 +12,7 @@ class Stack:
         return len(self.stack)
     
     def empty(self) -> bool:
-        return self.size == 0
+        return self.size() == 0
 
     def show(self) -> None:
         print(self.stack)
