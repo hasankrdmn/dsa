@@ -12,7 +12,7 @@ class Queue:
         return len(self.queue)
     
     def empty(self) -> bool:
-        return self.size == 0
+        return self.size() == 0
     
     def show(self) -> None:
         print(self.queue)
