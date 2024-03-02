@@ -101,5 +101,17 @@ void myStack_show(stack *obj)
 
 void myStack_free(stack *obj)
 {
+    if (obj == NULL)
+    {
+        return;
+    }
+    node *cur = obj -> stack -> front;
+    while (cur != NULL)
+    {
+        node *tmp = cur;
+        cur = cur -> next;
+        free(tmp);
+    }
+    free(obj -> stack);
     free(obj);
 }
